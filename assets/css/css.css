@@ -1,5 +1,21 @@
-#articleButtons {
-    margin: 5px auto;
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1
 }
 
+p.error {
+  margin-bottom: 0;
 
+  font-size: 0.6rem;
+}
+
+p.error, .no-results {
+  color: red;
+}
+
+img.loading {
+  height: 56px
+}
+
+.disabled {
+  opacity: 0.4
+}
